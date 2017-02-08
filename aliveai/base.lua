@@ -433,7 +433,7 @@ aliveai.rndwalk=function(self,toogle)
 		elseif self.annoyed_by_staring==1 then
 			for _, ob in ipairs(minetest.get_objects_inside_radius(pos, self.arm)) do
 				if math.random(1,2)==1 and ob and ob:getpos() and aliveai.visiable(self,ob:getpos())  then
-					if self.stealing==1 and math.random(1,self.steal_chance)==1 then aliveai.steal(self,ob) return self end
+					if self.stealing==1 and math.random(1,2)==1 then aliveai.steal(self,ob) return self end
 					if ob:get_luaentity() and not (ob:get_luaentity().name=="" or (ob:get_luaentity().aliveai and ob:get_luaentity().botname==self.botname)) then
 						self.staring={}
 						self.staring.name=ob:get_luaentity().name
