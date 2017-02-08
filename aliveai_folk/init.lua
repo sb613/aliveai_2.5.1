@@ -1,0 +1,40 @@
+aliveai.create_bot({
+		name="folk1",
+		texture="aliveai_folk1.png",
+		arm=3,
+})
+aliveai.create_bot({
+		name="folk2",
+		texture="aliveai_folk2.png",
+})
+aliveai.create_bot({
+		name="folk3",
+		texture="aliveai_folk3.png",
+})
+aliveai.create_bot({
+		name="folk4",
+		texture="aliveai_folk4.png",
+})
+aliveai.create_bot({
+		name="folk5",
+		texture="aliveai_folk5.png",
+		light=-1,
+		stealing=1,
+		steal_chanse=2,
+		talking=0,
+		smartfight=0,
+		fighting=0,
+		lowest_light=9,
+})
+aliveai.create_bot({
+		name="folk6",
+		texture="aliveai_folk6.png",
+})
+aliveai.create_bot({
+		name="folk7",
+		texture="aliveai_folk7.png",
+})
+aliveai.create_bot({
+		name="folk8",
+		texture="aliveai_folk8.png",
+})
